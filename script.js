@@ -1,7 +1,7 @@
 const owner = "iboxyee";  // Sesuaikan dengan username GitHub-mu
 const repo = "url-shortner";  // Sesuaikan dengan repo GitHub-mu
 const path = "urls.json";
-const token = "Iv23liGHetZGXDuPwV0E";  // Ganti dengan token baru
+const token = "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";  // Ganti dengan token baru
 
 async function generateShortURL() {
     let longURL = document.getElementById("longURL").value;

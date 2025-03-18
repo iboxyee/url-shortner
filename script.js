@@ -22,7 +22,7 @@ async function generateShortURL() {
             body: JSON.stringify({ message: "Tambah URL", content: content, sha: sha })
         });
 
-        let shortLink = `${window.location.origin}/?c=${shortCode}`;
+        let shortLink = `${window.location.origin}?c=${shortCode}`;
         document.getElementById("result").innerHTML = `URL Pendek: <a href="${shortLink}" target="_blank">${shortLink}</a>`;
     } catch (error) {
         console.error("Error:", error);
